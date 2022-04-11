@@ -20,7 +20,24 @@
         border-radius: 50%;
         display: inline-block;
       }
-      
+      form.example input[type=text] {
+  padding: 100px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+
+
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
       </style>
   </head>
 
@@ -45,10 +62,14 @@
                 <li class="nav-item"><a href="#" class="nav-link">Fourth Link</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Fifth Link</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Sixth Link</a></li>
+                
               </ul>
-
-
-              
+          <!---Search B
+              <form class="example" >
+                  
+                <button type="submit" ><i class="fa fa-search"></i></button>
+              </form>
+            -->
             </header>
           </div>
         
@@ -82,7 +103,9 @@
               
               <div class="col-md-6">
                  <div class="about_img">
-                    <img  class="img_responsive" style="object-fit: contain;" src="images/img_lights.jpg" alt="#">
+                  <img class="img_responsive" style="object-fit: contain;" src=" https://via.placeholder.com/150x250" >
+                  
+                    
                  </div>
               </div>
             
@@ -109,47 +132,68 @@
          
            
 
-
-          <div class="row " style="margin: 20px;">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">&#9733;One Line Header</h5>
-                  <p class="card-text">Computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall utility.</p>
-                  <h5 class="card-title">&#9733;One Line Header</h5>
-                  <p class="card-text">Computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall utility.</p>
-                  <h5 class="card-title">&#9733;One Line Header</h5>
-                  <p class="card-text">Computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall utility.</p>
-                  
-                </div>
+        <div class="about" style="margin-top:100px">
+          <div class="container">
+              <div>
+             <div class="row d_flex d_grid">
+              <div class="col-md-5 offset-md-1 order_1_mobile">
+                  <div class="titlepage text_align_left">
+                     
+                      
+                        <div class="mb-3">
+                          <h5 >&#9733;One line header</h5>
+                          <p style="font-size:18px ;color: #585757" >Computers are infected with Adware and spyware. Such<br> software is rarely accompanied by uninstall utility.</p>
+                          
+                        </div>
+                        <div class="mb-3">
+                          <h5 >&#9733;One line header</h5>
+                          <p style="font-size:18px ;color: #585757" >Computers are infected with Adware and spyware. Such<br> software is rarely accompanied by uninstall utility.</p>
+                          
+                        </div>
+                          <div class="mb-3">
+                              <h5 >&#9733;One line header</h5>
+                              <p style="font-size:18px ;color: #585757" >Computers are infected with Adware and spyware. Such <br>software is rarely accompanied by uninstall utility.</p>
+                              
+                   </div>
+               </div>
               </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <img src="images/download.png" class="rounded float-start" >
+                
+                <div class="col-md-6">
+                   <div class="about_img">
+                    <img class="img_responsive" style="object-fit: contain;" src=" https://via.placeholder.com/150x250" >
+                    
+                      
+                   </div>
                 </div>
-              </div>
-            </div>
+              
+                
+             </div>
           </div>
+       </div>
+       <br>
+       <br>
+       <hr>
 
-
-
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body">
-                  <img src="images/download.png" class="rounded float-start" >
-                </div>
-              </div>
+       <div class="about" style="margin-top:100px">
+        <div class="container">
+            <div>
+           <div class="row d_flex d_grid">
+            <div class="col-md-4">
+            <div class="col-md-5 offset-md-1 order_1_mobile">
+                <div class="titlepage text_align_left">
+                   
+                    <div class="col-md-3">
+                        <div class="about_img">
+                         <img class="img_responsive" style="object-fit: contain;" src=" https://via.placeholder.com/150x250" >
+                         
+                           
+                        </div>
+                     </div>
+             </div>
             </div>
-          
-
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body">
-                  
-                  <div class="container">
+        </div>
+              <div class="col-md-4">
+                <div class="container">
                     
                     <div class="row" >
                       <div class="col-100 col-sm-6">
@@ -176,37 +220,30 @@
                     </div>
 
                   </div>
-                  </div>
-                  </div>
-                  
-                </div>
+              </div>
 
-
-            
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body">
-                  <p>The quality of today’s video game was not at all
+              <div class="col-md-4">
+                <p style="font-size:18px ;color: #585757">The quality of today’s video game was not at all
                     there when video game first conceptualized and
                     played ever. During the formulative years, video
                     games were created by using various interactive
                     electronic devices with various display.</p><br>
                     <p class="fw-light">Video games were created by using various interactive
                       electronic devices with various display.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
+             </div>
+            
+              
+           </div>
         </div>
-
+     </div>
+     <hr>
 
       <h1 class="text-center">Short Heading</h1>
-      <p class="text-center">Each and every one of us has that moment when we are suddenly stunned
+      <p class="text-center" style="font-size:18px ;color: #585757">Each and every one of us has that moment when we are suddenly stunned<br>
         when we come face to face with the enormity of the universe.</p>
          
         <div class="container">
-          <div class="row">
+          <div class="row" style="margin:100px">
             <div class="col">
               &#9733;<br><br>
               Feature One
@@ -232,13 +269,13 @@
           <img src="images/download.png" class="rounded float-start" >
         </div><br><br>
       -->
-
+<hr>
        <div>
          <h1 class="text-center text-secondary"><b>&#8216;&#8217;</b></h1>
-        <p class="text-center text-secondary">
-        There is a lot of exciting stuff going on in the stars above us that make
-astronomy so much fun. The truth is the universe is a constantly changing,
-moving, some would say living thing because you just never know what you
+        <p class="text-center text-secondary" style="font-size:18px ;color: #585757">
+        There is a lot of exciting stuff going on in the stars above us that make<br>
+astronomy so much fun. The truth is the universe is a constantly changing,<br>
+moving, some would say living thing because you just never know what you<br>
 are going to see on any given night of stargazing.
 </p>
 </div>
@@ -249,21 +286,21 @@ are going to see on any given night of stargazing.
 <a href="#" class="text-decoration-none">Learn More</a>
 </div>
 
+<hr>
 
-
-<div class="row">
+<div class="row" style="margin:100px">
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <div class="text-center" >
-        <h5 class="card-title">Start</h5>
-        <h4 class="card-text">Free</h4>
-        <p class="card-text">Long Feature One</p>
-        <p class="card-text">Feature Two</p>
-        <p class="card-text">Long Feature Three</p>
+        <div class="text-center" style="margin-top:50px">
+        <h5 class="card-title" style="margin-top:50px">Start</h5>
+        <h1 class="card-text">Free</h1>
+        <p class="card-text" style="font-size:18px ;color: #585757">Long Feature One</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Feature Two</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Long Feature Three</p>
         <span class="border border-3 "><a href="#" class="btn" >Button </a></span>
         
-        <p class="card-text">Two line long feature example with text description for your project</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Two line long feature example with text description for your project</p>
       </div>
     </div>
     </div>
@@ -271,30 +308,30 @@ are going to see on any given night of stargazing.
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <div class="text-center" >
-        <h5 class="card-title">pro</h5>
-        <h4  class="card-text">$38 / mo</h4> 
-        <p class="card-text">Long Feature One</p>
-        <p class="card-text">Feature Two</p>
-        <p class="card-text">Long Feature Three</p>
+        <div class="text-center" style="margin-top:50px" >
+        <h5 class="card-title" style="margin-top:50px">pro</h5>
+        <h1  class="card-text">$38 / mo</h1> 
+        <p class="card-text" style="font-size:18px ;color: #585757">Long Feature One</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Feature Two</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Long Feature Three</p>
         <a href="#" class="btn btn-primary ">Button </a>
-        <p class="card-text">Two line long feature example with text description for your project</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Two line long feature example with text description for your project</p>
       </div>
     </div>
   </div>
   </div>
   
-  <div class="col-sm-4">
+  <div class="col-sm-4" >
     <div class="card">
       <div class="card-body">
-        <div class="text-center" >
-        <h5 class="card-title">Bussiness</h5>
-        <h4  class="card-text">$78 / mo</h4> 
-        <p class="card-text">Long Feature One</p>
-        <p class="card-text">Feature Two</p>
-        <p class="card-text">Long Feature Three</p>
+        <div class="text-center" style="margin-top:50px" >
+        <h5 class="card-title" style="margin-top:50px">Bussiness</h5>
+        <h1  class="card-text">$78 / mo</h1> 
+        <p class="card-text" style="font-size:18px ;color: #585757">Long Feature One</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Feature Two</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Long Feature Three</p>
         <span class="border border-3"><a href="#" class="btn" >Button </a></span>
-        <p class="card-text">Two line long feature example with text description for your project</p>
+        <p class="card-text" style="font-size:18px ;color: #585757">Two line long feature example with text description for your project</p>
         
       </div>
     </div>
@@ -303,33 +340,55 @@ are going to see on any given night of stargazing.
 </div>
 <br>
 <hr>
-<div class="container">
-  <div class="row">
-<div class="b-example-divider" style="margin: 50px;">
-<div>
-<h3>Heading</h3>
-<p>In the history of modern astronomy, there is probably no one<br>
-  greater leap forward than the building and launch.
-  </p>
+<div class="about" style="margin:100px">
+  <div class="container">
+      <div>
+     <div class="row d_flex d_grid">
+      <div class="col-md-6">
+      <div class="col-md-5 offset-md-1 order_1_mobile">
+          <div class="titlepage text_align_left">
+              <h1>Heading</h1>
+              <p style="font-size:20px ;color: #585757" >In the history of modern astronomy, there is probably no one<br>
+                  greater leap forward than the building and launch.</p>
+                  
+                      <div class="mb-3">
+                          </div>
+                          <div class="mb-3">
+                          </div>
+                            <div class="mb-3">
+                              
+                 
+           </div>
+       </div>
+      </div>
+        </div>
+        <div class="col-md-6">
+          
+           <div class="about_img">
+              <div class="titlepage text_align_left">
+                <form action="/action_page.php" method="post">
+                            
+                  <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label" ></label>
+                    <input type="text" class="border border-2" name="Email" name="fname" size="40" placeholder="Email" required>
+                  
+                      <input type="submit" style="background-color: #24AFB5; color: aliceblue;" value="Subscribe" class="btn">
+                  </div>
+              </div>
+         </form>
+               </div>
+            
+              
+           </div>
+        </div>
+      
+        
+     </div>
+  </div>
 </div>
-<div>
-  <div class="mb-3">
-    
-  <form action="/action_page.php" method="post">
-    <input type="text" class="border border-2" name="Email" placeholder="Email" required>
-    <input type="submit" style="background-color: #24AFB5; color: aliceblue;" value="Subscribe" class="btn">
-    </div>
-  
-</div>
-
-</div>
-
-
-
-
-</div>
-</div>
-  </form>
+<br>
+<br>
+<hr>
                 <div class="container">
                   <footer class="py-3 my-4">
                     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
