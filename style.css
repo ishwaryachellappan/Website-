@@ -1,0 +1,450 @@
+html {
+  font-size: 10px;
+}
+
+/* which means 1rem=10px   */
+
+body {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+}
+
+p {
+  color: #585757;
+  line-height: 1.4;
+  letter-spacing: 0.5;
+}
+
+.container {
+  border-bottom: 0.2rem solid #bbb6b6;
+}
+/* ------------------HEADER SECTION  START----------------------------*/
+
+/*  FOR MOBILE TYPE NAVIGATION  */
+.mobile-nav,
+.sidepanel {
+  display: none;
+}
+
+/*  FOR MOBILE TYPE NAVIGATION  */
+
+.header-section {
+  margin-bottom: 4.8rem;
+}
+
+.c1 {
+}
+.header-div {
+}
+
+.link-list {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  list-style: none;
+}
+
+.link-list a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #1c1c1c;
+}
+
+.item-icon {
+  display: flex;
+  gap: 4rem;
+}
+
+.icon {
+  color: skyblue;
+  font-size: 5rem;
+  transform: translateY(-30%);
+}
+
+/* ---------------------------- HEADER SECTION END -----------------*/
+
+/* ---------------------------  SUBSCRIBE SECTION START -----------*/
+
+.subscribe-section {
+  margin: 0 auto;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
+}
+
+.subscribe-div {
+  padding-left: 2.6rem;
+}
+
+.subscribe-div h1 {
+  color: #1c1c1c;
+  font-size: 6rem;
+}
+
+.pip {
+  font-size: 3.6rem;
+}
+
+.pop {
+  color: #bbb6b6;
+  font-size: 3rem;
+}
+
+.JSval {
+  padding: 1rem;
+  margin-bottom: 3.6rem;
+  border-radius: 0.9rem;
+  font-size: 2rem;
+  width: 36rem;
+}
+
+.sub-btn {
+  padding: 0.8rem 2.8rem;
+  border-radius: 0.9rem;
+  background-color: #24afb5;
+  font-size: 2.4rem;
+}
+.img-div {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.image-div {
+  border-radius: 2rem;
+  align-items: center;
+}
+
+/* ---------------------------  SUBSCRIBE SECTION END -----------*/
+
+/*   ------------------   MIDDLE SECTION START    ----------------- */
+.middle-div {
+  margin: 3.6rem 2rem;
+}
+
+.content-div {
+  margin: 10rem 23rem;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.i-icon {
+  padding: 4.4rem;
+  background-color: #bbb6b6;
+  color: #585757;
+  border-radius: 50%;
+}
+/* ------------------   MIDDLE SECTION END        -----------------  */
+
+/* -------------------   ONE LINE HEADER  START       ------------------   */
+.c3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+
+  margin: 4.8rem 6.8rem;
+}
+
+.one-line {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.ii-icon {
+  height: 2rem;
+  width: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #bbb6b6;
+  color: #585757;
+}
+
+/* -------------------   ONE LINE HEADER  END     ------------------   */
+
+/* -------------------   PERCENTAGE SECTION START     ------------------   */
+
+.c4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+
+  margin: 10rem 10rem;
+}
+
+.grid2-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.perc-list {
+  display: flex;
+
+  align-items: center;
+}
+
+.perc-topic {
+  list-style: none;
+  padding: 0rem 0rem 0rem 3rem;
+}
+.ii {
+  height: 3rem;
+  width: 3rem;
+}
+.perc {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.5;
+}
+.perc-content {
+  font-size: 2.6rem;
+}
+/* -------------------   PERCENTAGE SECTION  END     ------------------   */
+
+/* ----------------  SHORT HEADING SECTION START --------------------*/
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+}
+
+.center {
+  text-align: center;
+  margin: 6rem 20rem;
+}
+
+.ii {
+  padding: 2rem;
+}
+
+.sh-head h1 {
+  font-size: 5.8rem;
+}
+
+.sh-head p {
+  line-height: 1.7;
+  font-size: 2.4rem;
+}
+/*  ------------------ SHORT HEADING SECTION END --------------------*/
+
+/* --------------- CAROSUEL SECTION START -------------------- */
+
+.carousel {
+  width: 80rem;
+  margin: 10rem auto;
+
+  /* padding: 32px; */
+  /* padding-left: 86px; */
+  /* padding-right: 48px; */
+  padding: 3.2rem 4.8rem 3.2rem 8.6rem;
+
+  border-radius: 0.8rem;
+  position: relative;
+  text-align: center;
+
+  /*
+  display: flex;
+  align-items: center;
+  gap: 86px;*/
+}
+
+.testimonial-text {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+}
+
+.company {
+  font-size: 4rem;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.testimonial-author {
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+  color: #1c1c1c;
+}
+
+.testimonial-job {
+  font-size: 1.8rem;
+}
+
+.learn {
+  text-decoration: none;
+}
+.btn {
+  background-color: #fff;
+  border: 0.1rem solid black;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  position: absolute;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--left {
+  /* In relation to PARENTE ELEMENT */
+  left: 0;
+  top: 50%;
+
+  /* In relation to ELEMENT ITSELF */
+  transform: translate(-50%, -50%);
+}
+
+.btn--right {
+  right: 0;
+  top: 50%;
+
+  transform: translate(50%, -50%);
+}
+
+.btn-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 3.2rem);
+
+  display: flex;
+  gap: 1.2rem;
+}
+
+.dot {
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #fff;
+  border: 0.2rem solid #087f5b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot--fill {
+  background-color: #087f5b;
+}
+
+/* --------------- CAROSUEL SECTION END ----------------*/
+
+/* --------------- CARD SECTION START ---------------- */
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+
+  margin: 3rem auto;
+}
+
+.card-item {
+  text-align: center;
+  border: 0.1rem solid black;
+  border-radius: 0.9rem;
+}
+
+.card-btn {
+  text-align: center;
+  padding: 1.4rem;
+  border: 0.1rem solid black;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  border-radius: 0.9rem;
+}
+
+.card-item-popular {
+  border: 0.25rem solid blue;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-item-popular::after {
+  content: "popular";
+  position: absolute;
+  top: 0;
+  right: -1%;
+
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #8ce99a;
+  padding: 0.8rem 1rem;
+  transform: rotate(360deg);
+}
+
+.btn-icon {
+  color: black;
+  border: 0.5rem fill grey;
+}
+/* ----------------- CARD SECTION END --------------*/
+
+/* --------------    HEADING SECTION START ----------  */
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+}
+
+.heading {
+}
+
+.subscribe {
+  margin-top: 10%;
+}
+/* --------------- HEADING SECTION END ---------  */
+
+/* -----------   FOOTER START --------------- */
+
+footer {
+  margin: 4.8rem;
+}
+.footer-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 2rem;
+}
+
+.logos {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+}
+
+/* ------------  FOOTER END ----------------  */

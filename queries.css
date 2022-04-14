@@ -1,0 +1,245 @@
+@media (max-width: 87em) {
+  .mobile-nav {
+    display: none;
+  }
+  .card-btn {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .perc-content {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 65em) {
+  .mobile-nav {
+    display: none;
+  }
+  .card-btn {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .perc-content {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 54em) {
+  .mobile-nav {
+    display: none;
+  }
+  .link-list {
+    gap: 2rem;
+  }
+
+  .link-list a {
+    font-size: 1.6rem;
+  }
+
+  .item-icon {
+    gap: 3rem;
+  }
+
+  .middle-div {
+    margin: 2.4rem 1.4rem;
+  }
+
+  .content-div {
+    margin: 4rem 10rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  /*   PERCETAGE SECTION   */
+  .c4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cont {
+    grid-column: 1/-1;
+  }
+  .perc-content p {
+    font-size: 1.6rem;
+  }
+
+  .sh-head h1 {
+    font-size: 3.6rem;
+  }
+
+  .sh-head p {
+    font-size: 2rem;
+  }
+  .carousel {
+    width: 40rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 2.4rem;
+  }
+
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-sec {
+    display: flex;
+  }
+
+  .links {
+    display: none;
+  }
+  .c3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 50em) {
+  .mobile-nav {
+    display: none;
+  }
+  .grid4 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .center {
+    margin: 3rem 10rem;
+  }
+}
+
+@media (max-width: 40em) {
+  /*  FOR MOBILE NAv type   */
+  .mobile-nav {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .data {
+    text-align: center;
+  }
+  .search {
+    text-align: right;
+  }
+  .nav-icon {
+    height: 4rem;
+    width: 4rem;
+    color: black;
+  }
+
+  .header-section {
+    margin-bottom: 1rem;
+  }
+
+  .conta {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /*  WHEN WE CLICK ON MENU A SIDE BAR IS OPEN WITH SOME DATA */
+
+  .sidepanel {
+    display: block;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 30rem;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6rem;
+    opacity: 0.8;
+  }
+
+  .sidepanel a {
+    padding: 0.8rem 0.8rem 0.8rem 3.2rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidepanel a:hover {
+    color: #f1f1f1;
+    font-size: 3rem;
+  }
+
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+  }
+  /*  FOR MOBILE NAv type   */
+
+  .c1 {
+    display: none;
+  }
+  .JSval {
+    padding: 1rem;
+    margin-bottom: 2.4rem;
+    border-radius: 0.9rem;
+    font-size: 2rem;
+    width: 36rem;
+  }
+
+  .subscribe-div h1 {
+    color: #1c1c1c;
+    font-size: 4.8rem;
+  }
+
+  .pip {
+    font-size: 2.8rem;
+  }
+
+  .pop {
+    color: #bbb6b6;
+    font-size: 2rem;
+  }
+
+  .c2,
+  .c4,
+  .grid3,
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+
+  .card-btn {
+    margin-left: 19rem;
+    margin-right: 19rem;
+  }
+
+  .gap-at-mobile {
+    gap: 3rem;
+  }
+
+  .subscribe {
+    margin-top: 0;
+  }
+
+  .center {
+    margin: 3rem 8rem;
+  }
+
+  .grid4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cc {
+    margin-bottom: 2rem;
+  }
+}
